@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <input id="imageupload" type="file" multiple onchange="uploadfiles()">
+    </body>
+    <script>
+        function uploadfiles(){
+            console.log("Did stuffs");
+            file = document.getElementById("imageupload").files;
+            console.log(file);
+        }
+    </script>
+</html>
